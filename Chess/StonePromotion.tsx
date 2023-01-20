@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     marginTop: '20%',
     flexDirection: 'row',
     elevation: 4,
-    zIndex: 3023,
+    zIndex: 10,
     backgroundColor: 'rgba(255,255,255,0.5)',
   },
   StoneContainer: {width: 50, height: 50},

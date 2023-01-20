@@ -46,10 +46,13 @@ const WinnerView = ({WinnerIs, id, goBack}: any) => {
   return (
     <View style={styles.absoluteContainer}>
       <View style={styles.CenterContainer}>
-        <Text>{WinnerIs.id === id ? 'You Have Won:' : 'you have lost'}</Text>
+        <Text>
+          {1 || WinnerIs.id === id ? 'You Have Won:' : 'you have lost'}
+        </Text>
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
+            console.log('goBack');
             goBack();
           }}>
           <Text>Go back</Text>
@@ -72,7 +75,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: '100%',
     height: '100%',
-    elevation: 9,
     zIndex: 20,
     justifyContent: 'center',
     alignItems: 'center',
@@ -81,7 +83,7 @@ const styles = StyleSheet.create({
   WaitingContaienr: {flex: 1, justifyContent: 'center', alignItems: 'center'},
   CenterContainer: {
     padding: 10,
-    zIndex: 232343444,
+    zIndex: 8,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'white',

@@ -140,7 +140,12 @@ export const ChessBoard = ({
     };
   }, []);
   return (
-    <View style={{backgroundColor: '#0F233C', marginTop: 50}}>
+    <View
+      style={{
+        backgroundColor: '#0F233C',
+        zIndex: 0,
+        marginTop: 50,
+      }}>
       <StonePromtion
         IsPromotion={IsPromotion}
         moveTopromiton={(data: Type) => moveTopromiton(data)}

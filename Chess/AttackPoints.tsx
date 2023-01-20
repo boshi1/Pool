@@ -23,7 +23,7 @@ const AttackPoints = ({moveToHeres, width, color, location}: Attack) => {
 const styles = StyleSheet.create({
   CircleContainer: {
     position: 'absolute',
-    zIndex: 3232,
+    zIndex: 4,
     height: '100%',
     width: '100%',
     justifyContent: 'center',
