@@ -46,9 +46,7 @@ const WinnerView = ({WinnerIs, id, goBack}: any) => {
   return (
     <View style={styles.absoluteContainer}>
       <View style={styles.CenterContainer}>
-        <Text>
-          {1 || WinnerIs.id === id ? 'You Have Won:' : 'you have lost'}
-        </Text>
+        <Text>{WinnerIs.id === id ? 'You Have Won:' : 'you have lost'}</Text>
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
