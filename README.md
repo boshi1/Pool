@@ -6,6 +6,7 @@ React native online chess app wirh backend built on nodejs and chessjs
 -Animation on moving part 
 -promotion on reaching end 
 -It doesn't Include an navigation or state management since it is  simple chess board
+
 ![](https://github.com/boshi1/Pool/example.gif)
 
 
