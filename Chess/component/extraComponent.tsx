@@ -59,7 +59,7 @@ const WinnerView = ({WinnerIs, id, goBack}: any) => {
   );
 };
 const styles = StyleSheet.create({
-  TextInButton: {color: 'white  '},
+  TextInButton: {color: 'white'},
   button: {
     padding: 10,
     margin: 10,

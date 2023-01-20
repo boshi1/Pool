@@ -7,7 +7,7 @@ const StoneKilled = ({captured}: {captured: CapturedsProps}) => {
     <View style={styles.StonesContainer}>
       {Object.entries(captured).map(([key, v]) => {
         return (
-          <View key={key}>
+          <View key={key + '5'}>
             <Image
               style={{
                 width: 30,

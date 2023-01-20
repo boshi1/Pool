@@ -183,6 +183,7 @@ export const ChessBoard = ({
                   onLayout={(event, location) => {
                     onLayout({event: event, locc: location, chess: chess});
                   }}
+                  key={location}
                   row={row}
                   Piece={Piece}
                   color={data.color}
@@ -211,6 +212,7 @@ export const ChessBoard = ({
                   onLayout={(event, location) => {
                     onLayout({event: event, locc: location, chess: chess});
                   }}
+                  key={location}
                   Rotation={Rotation}
                   location={location}
                   moveToHeres={(location: Squares) =>

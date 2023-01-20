@@ -51,7 +51,6 @@ const RenderUser = ({place, Rotation, turn, User, captured}: User) => {
   return (
     <>
       <UserItem
-        key={User.color}
         captured={captureds}
         Rotation={Rotation}
         User={User}

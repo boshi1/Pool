@@ -1,6 +1,5 @@
 import React from 'react';
 import {StyleSheet, Image, View, Text} from 'react-native';
-import {CapturedsProps, Pieces, Piece} from '../Contants';
 
 const Profile = ({User}: any) => {
   return (
